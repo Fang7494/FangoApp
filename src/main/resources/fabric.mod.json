@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fango",
+  "version": "1.0.0",
+  "name": "Fango A++",
+  "description": "Clean Meteor-inspired cheat client for Minecraft 1.21.1",
+  "authors": ["FangoTeam"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.fango.FangoClient"]
+  },
+  "mixins": ["fango.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
