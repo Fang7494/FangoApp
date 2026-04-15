@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.fango.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "KeyInputMixin",
+    "ClientPlayerEntityMixin",
+    "LivingEntityMixin",
+    "MinecraftClientMixin",
+    "GameRendererMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "InGameHudMixin",
+    "ClientConnectionMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
